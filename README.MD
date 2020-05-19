@@ -1,6 +1,7 @@
 # n-DAP_MODBUS_FEEDER_ADC:  
 ##  Firmware for a PickPlace feeder control MODBUS board that controls an RC Servo and reads ADC   
-## THIS IS PROJECT MANAGEMENT REPO FOR [mbed project](https://os.mbed.com/users/chalikias/code/n-DAP_MODBUS_FEEDER_ADC/) 
+## initial PROJECT at [mbed project](https://os.mbed.com/users/chalikias/code/n-DAP_MODBUS_FEEDER_ADC/) 
+## current  PROJECT at [github project](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC) 
 
 
 
