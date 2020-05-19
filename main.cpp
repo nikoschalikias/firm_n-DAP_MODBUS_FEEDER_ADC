@@ -22,6 +22,7 @@ int main() {
     uint8_t buf[32];
     uint8_t i = 0;
     uint16_t angle = 0;
+    uint16_t counter = 0;
 
     dir = 1;
     wait(4); // wait the usb to be recognized from the PC
@@ -30,11 +31,16 @@ int main() {
     dir = 0;
     green = 1;
     blue = 1;
-            rcservo.period_ms(20);      
-            rcservo.pulsewidth_us(1500) ;
+    red = 1;
+    rcservo.period_ms(20);      
+    rcservo.pulsewidth_us(1500) ;
        
     while(1) {
-        red = !red;           
+        counter ++;
+        if (counter > 20000) {
+            red = !red;
+            counter = 0; 
+        }          
         if(modbus.readable()) {                                                 
             if (i > 31) {                                
                 i = 0;

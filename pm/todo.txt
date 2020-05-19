@@ -7,4 +7,6 @@ Test Vacuum with modbus
 x [IS NOT] Check if its possible to change from mbed OS2 to OS5
 x Create mbed cli project and compile it
 x Add repo to sourcetree
-Create github remote repo and push
+x Create github remote repo and push
+x Lower heart-beat red led frequency so blink is visible
+x Test mbed-cli created .bin lower heart-beat
