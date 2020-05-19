@@ -3,7 +3,6 @@ x Create README.MD and describe firmware operation
 x Document the structure of the MODBUS messages
 x Add Vacuum GPO
 x LED and Vacuum commands (values 1 to 5) dont affect Servo
-Test Vacuum with modbus
 x [IS NOT] Check if its possible to change from mbed OS2 to OS5
 x Create mbed cli project and compile it
 x Add repo to sourcetree
@@ -13,3 +12,6 @@ x Test mbed-cli created .bin lower heart-beat
 x tidy-up main() comments
 x reduce startup delay from 4 sec to 0.5 sec
 x Create and test dos-cmd file to upload .bin to target
+x Update README.MD with old/new project remote repo URLs
+x Test Vacuum GPO line with LED controlled from modbus
+Add Schematic info to README.MD

@@ -11,8 +11,8 @@ DigitalOut blue(P0_11);
 
 AnalogIn adc1(P0_22);   	                        //n-DAP pin 12
 USBSerial serial(0x1f00,0x2012,0x0001,false);       // serial over native USB on board (false is non blocking)
-Serial modbus(P0_19, P0_18); // n-DAP tx, rx
-DigitalOut dir(P0_2);
+Serial modbus(P0_19, P0_18);                        // n-DAP tx, rx
+DigitalOut dir_RS485(P0_2);
 PwmOut rcservo(P0_8);
 DigitalOut Vacuum(P0_7);
 
@@ -24,11 +24,11 @@ int main() {
     uint16_t angle = 0;
     uint16_t counter = 0;
 
-    dir = 1;
-    wait(0.5);                                        // wait the usb to be recognized from the PC
+    dir_RS485 = 1;
+    wait(0.5);                                      // wait the usb to be recognized from the PC
     modbus.printf(" 0x%04u\r",  adc1.read_u16());
     serial.printf(" 0x%04u\r",  adc1.read_u16());   //adc readout to PC  
-    dir = 0;
+    dir_RS485 = 0;
     green = 1;
     blue = 1;
     red = 1;
@@ -50,7 +50,7 @@ int main() {
                   serial.printf("\n");              //change line and reset index
                   i = 0; buf[i] = 0x20;
                   }
-            modbus.putc(buf[i]);                   //debug only
+            modbus.putc(buf[i]);                    //debug only
             serial.printf("0x%02X ", buf[i]);
             i++; 
         }
@@ -58,11 +58,12 @@ int main() {
         if (buf[9] == 0x02) { blue = 1;}
         if (buf[9] == 0x03) { green = 0; }
         if (buf[9] == 0x04) { green = 1; }
-        if (buf[9] == 0x04) { Vacuum = 1; }
-        if (buf[9] >  0x05)  {
+        if (buf[9] == 0x05) { Vacuum = 1; }
+        if (buf[9] == 0x06) { Vacuum = 0; }
+        if (buf[9] >  0x07) {
             angle = buf[9]*4;
             angle = 1000 + angle;
-            buf[9] =0;
+            buf[9] = 0;
             rcservo.period_ms(20);      
             rcservo.pulsewidth_us(angle) ;
             }
