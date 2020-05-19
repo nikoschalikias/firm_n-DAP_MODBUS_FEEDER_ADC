@@ -10,3 +10,6 @@ x Add repo to sourcetree
 x Create github remote repo and push
 x Lower heart-beat red led frequency so blink is visible
 x Test mbed-cli created .bin lower heart-beat
+x tidy-up main() comments
+x reduce startup delay from 4 sec to 0.5 sec
+x Create and test dos-cmd file to upload .bin to target

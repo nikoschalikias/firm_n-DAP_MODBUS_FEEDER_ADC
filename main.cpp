@@ -5,13 +5,13 @@
  
 
 
-DigitalOut red(P0_20);
+DigitalOut red(P0_20);                              //n-DAP on board LEDs
 DigitalOut green(P0_21);
 DigitalOut blue(P0_11);
 
-AnalogIn adc1(P0_22); //n-DAP pin 12
-USBSerial serial(0x1f00,0x2012,0x0001,false);// serial over native USB on board (false is non blocking)
-Serial modbus(P0_19, P0_18); // tx, rx
+AnalogIn adc1(P0_22);   	                        //n-DAP pin 12
+USBSerial serial(0x1f00,0x2012,0x0001,false);       // serial over native USB on board (false is non blocking)
+Serial modbus(P0_19, P0_18); // n-DAP tx, rx
 DigitalOut dir(P0_2);
 PwmOut rcservo(P0_8);
 DigitalOut Vacuum(P0_7);
@@ -25,7 +25,7 @@ int main() {
     uint16_t counter = 0;
 
     dir = 1;
-    wait(4); // wait the usb to be recognized from the PC
+    wait(0.5);                                        // wait the usb to be recognized from the PC
     modbus.printf(" 0x%04u\r",  adc1.read_u16());
     serial.printf(" 0x%04u\r",  adc1.read_u16());   //adc readout to PC  
     dir = 0;
@@ -47,10 +47,10 @@ int main() {
                 }
             buf[i] = modbus.getc();
             if ( buf[i] == 0x20){
-                  serial.printf("\n");    //change line and reset index
+                  serial.printf("\n");              //change line and reset index
                   i = 0; buf[i] = 0x20;
                   }
-            modbus.putc(buf[i]);                            //debug only
+            modbus.putc(buf[i]);                   //debug only
             serial.printf("0x%02X ", buf[i]);
             i++; 
         }
