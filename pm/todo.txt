@@ -1,0 +1,7 @@
+x Review source, understand what it does
+x Create README.MD and describe firmware operation
+x Document the structure of the MODBUS messages
+x Add Vacuum GPO
+x LED and Vacuum commands (values 1 to 5) dont affect Servo
+Test Vacuum with modbus
+x [IS NOT] Check if its possible to change from mbed OS2 to OS5
