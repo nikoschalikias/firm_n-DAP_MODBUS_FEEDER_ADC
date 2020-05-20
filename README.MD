@@ -1,8 +1,10 @@
-#### n-DAP_MODBUS_FEEDER_ADC:  
+# n-DAP_MODBUS_FEEDER_ADC:  
 ####  Firmware for a PickPlace feeder controller MODBUS board
 
 ---
 Block Diagram
+
+
 <img
 src="doc/BLOCK-DIAGRAM.jpg"
 />
@@ -10,14 +12,20 @@ src="doc/BLOCK-DIAGRAM.jpg"
 ---
 
 Perforated Board Schematic
+
+
 <img
 src="doc/PERFORATED-BOARD-SCHEMATIC.JPG"
 />
+
+
 [n-DAP details](https://www.n-blocks.net/nmodules/doku.php?id=nblocks:n-pro-dap)
 
 ---
 
 n-DAP Board 'Text Art' Schematic
+
+
 <img
 src="doc/N-DAP-PINOUT.JPG"
 />
@@ -71,4 +79,4 @@ src="doc/N-DAP-PINOUT.JPG"
 <img
 src="doc/alternative_import_mbed_program.JPG"
 />
-[More details in n-BlocksStudio mbed tips](https://www.n-blocks.net/nmodules/doku.php?id=nblocksstudio:installation#mbed_tips)
+[More mbed-cli tips at: n-BlocksStudio mbed tips](https://www.n-blocks.net/nmodules/doku.php?id=nblocksstudio:installation#mbed_tips)
