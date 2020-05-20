@@ -48,4 +48,4 @@
 <img
 src="doc/alternative_import_mbed_program.JPG"
 />
-[More details in n-BlocksStudio mbed tips](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC)
+[More details in n-BlocksStudio mbed tips](https://www.n-blocks.net/nmodules/doku.php?id=nblocksstudio:installation#mbed_tips)
