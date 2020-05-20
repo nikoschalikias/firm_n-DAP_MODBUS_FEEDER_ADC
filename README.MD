@@ -1,23 +1,36 @@
+#### n-DAP_MODBUS_FEEDER_ADC:  
+####  Firmware for a PickPlace feeder controller MODBUS board
 
+---
+Block Diagram
 <img
 src="doc/BLOCK-DIAGRAM.jpg"
 />
 
+---
 
+Perforated Board Schematic
+<img
+src="doc/PERFORATED-BOARD-SCHEMATIC.JPG"
+/>
+[n-DAP details](https://www.n-blocks.net/nmodules/doku.php?id=nblocks:n-pro-dap)
+
+---
+
+n-DAP Board 'Text Art' Schematic
 <img
 src="doc/N-DAP-PINOUT.JPG"
 />
 
+---
 
+  
+##### Initial program at [mbed program](https://os.mbed.com/users/chalikias/code/n-DAP_MODBUS_FEEDER_ADC/) 
+##### Current  project at [github project](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC) 
 
-# n-DAP_MODBUS_FEEDER_ADC:  
-##  Firmware for a PickPlace feeder control MODBUS board that controls an RC Servo and reads ADC   
-## initial PROJECT at [mbed project](https://os.mbed.com/users/chalikias/code/n-DAP_MODBUS_FEEDER_ADC/) 
-## current  PROJECT at [github project](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC) 
+---
 
-
-
-### Current operation:  
+##### Current operation:  
 *  Does not respond to read ADC MODBUS commands  
 *  Sends the ADC value only-once after RESET  
 *  When a Modbus Byte is received:  
@@ -25,8 +38,8 @@ src="doc/N-DAP-PINOUT.JPG"
    * Responds by setting a PWM Output to [9th MODBUS byte] value, to drive an RC-Servo  
 *  Does not check for the MODBUS FUNCTION '...details', only resets a BYTE-COUNTER when received (ADDRESS BYTE) 0x20 and THEN responds on the 9th Byte (2nd MODBUS DATA byte) content
 
-## MODBUS message structure  
-#### MODBUS FUNCTION send from MASTER for 'turn-on' or 'set_rc_Servo_Angle'  (partially implemented on slave)
+##### MODBUS message structure  
+##### MODBUS FUNCTION send from MASTER for 'turn-on' or 'set_rc_Servo_Angle'  (partially implemented on slave)
 ```
 00 ADDRESS         0x20  
 01 FUNCTION        0x10   
@@ -42,7 +55,7 @@ src="doc/N-DAP-PINOUT.JPG"
 11 CRC             XxXX  
 ```
 
-#### MODBUS COMMAND send from MASTER for 'read_pin' (not impemented yet on slave)
+##### MODBUS COMMAND send from MASTER for 'read_pin' (not impemented yet on slave)
 ```
 00 ADDRESS         0x20    
 01 COMMAND         0x04    
@@ -54,7 +67,7 @@ src="doc/N-DAP-PINOUT.JPG"
 07 CRC             XxXX 
 ``` 
 
-#### This project was imported from mbed online compiler OS2 program as below
+##### This project was imported from mbed online compiler OS2 program as below
 <img
 src="doc/alternative_import_mbed_program.JPG"
 />
