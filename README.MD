@@ -1,3 +1,7 @@
+<img
+src="doc/N-DAP-PINOUT.JPG"
+/>
+
 
 
 # n-DAP_MODBUS_FEEDER_ADC:  
