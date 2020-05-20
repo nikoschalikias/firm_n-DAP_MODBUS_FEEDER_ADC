@@ -1,9 +1,16 @@
+//--------------N-DAP BOARD PINOUT----------------------------
+// RX       P0.19           P0.22(ADC0)     PRESSURE SENSOR 
+// TX       P0.18           P0.8            RC-SERVO
+// DIR      P0.2            P0.7            Vacuum
+//          VBUS            P0.12(ADC1)
+//          3.3V            P0.5(SDA)
+//          GND             P0.4(SCL)
+//------------------------------------------------------------
+
 #include "mbed.h"
 #include "LPC11Uxx.h"
 #include "USBSerial.h"
 //#include "Servo.h"
- 
-
 
 DigitalOut red(P0_20);                              //n-DAP on board LEDs
 DigitalOut green(P0_21);
@@ -16,15 +23,14 @@ DigitalOut dir_RS485(P0_2);
 PwmOut rcservo(P0_8);
 DigitalOut Vacuum(P0_7);
 
-
 int main() {
     modbus.baud(9600);
     uint8_t buf[32];
     uint8_t i = 0;
     uint16_t angle = 0;
     uint16_t counter = 0;
-
     dir_RS485 = 1;
+    
     wait(0.5);                                      // wait the usb to be recognized from the PC
     modbus.printf(" 0x%04u\r",  adc1.read_u16());
     serial.printf(" 0x%04u\r",  adc1.read_u16());   //adc readout to PC  
