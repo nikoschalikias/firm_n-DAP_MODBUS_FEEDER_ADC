@@ -1,3 +1,9 @@
+
+<img
+src="doc/BLOCK-DIAGRAM.jpg"
+/>
+
+
 <img
 src="doc/N-DAP-PINOUT.JPG"
 />

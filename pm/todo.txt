@@ -15,4 +15,7 @@ x Create and test dos-cmd file to upload .bin to target
 x Update README.MD with old/new project remote repo URLs
 x Test Vacuum GPO line with LED, controlled from modbus
 x Create in Wiki instructions how to inport mbed OS2 program to mbed-cli, save a snapshot to doc folder
-Add Schematic info to README.MD
+x Add Schematic info to main.cpp
+x Add Schematic info to README.MD
+x Create Block Diagram
+Tidy-Up README.MD title
