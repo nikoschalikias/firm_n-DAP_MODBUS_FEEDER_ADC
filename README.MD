@@ -45,5 +45,10 @@
 ``` 
 
 #### This project was imported from mbed online compiler OS2 program as below
+<img
+src="doc/alternative_import_mbed_program.JPG"
+alt="Subject Pronouns"
+style="margin-right: 10px;"
+/>
 ![Image description](.\doc\alternative_import_mbed_program.JPG)
 [more details in n-BlocksStudio mbed tips](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC)
