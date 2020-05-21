@@ -23,6 +23,16 @@ src="doc/PERFORATED-BOARD-SCHEMATIC.JPG"
 
 ---
 
+Experimental setup
+
+
+<img
+src="doc/perforated-board-03.JPG"
+/>
+
+---
+
+
 n-DAP Board 'Text Art' Schematic
 
 
