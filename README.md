@@ -56,6 +56,12 @@ src="doc/N-DAP-PINOUT.JPG"
   
 * Initial program at [mbed program](https://os.mbed.com/users/chalikias/code/n-DAP_MODBUS_FEEDER_ADC/) 
 
+* This project was imported from mbed online compiler OS2 program as below
+<img
+src="doc/alternative_import_mbed_program.JPG"
+/>
+[More mbed-cli tips at: n-BlocksStudio mbed tips](https://www.n-blocks.net/nmodules/doku.php?id=nblocksstudio:installation#mbed_tips)
+
 * Current  project at [github project](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC) 
 
 ---
@@ -98,8 +104,3 @@ src="doc/N-DAP-PINOUT.JPG"
 07 CRC             XxXX 
 ``` 
 
-##### This project was imported from mbed online compiler OS2 program as below
-<img
-src="doc/alternative_import_mbed_program.JPG"
-/>
-[More mbed-cli tips at: n-BlocksStudio mbed tips](https://www.n-blocks.net/nmodules/doku.php?id=nblocksstudio:installation#mbed_tips)
