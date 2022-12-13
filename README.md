@@ -8,11 +8,10 @@
 
 # n-DAP_MODBUS_FEEDER_ADC
 
-Firmware for a PickPlace feeder controller MODBUS board
+Experimental MODbus-Instrument firmware, for a PickPlace machine
 
 
 ## Block Diagram
-
 
 <img
 src="doc/BLOCK-DIAGRAM.jpg"

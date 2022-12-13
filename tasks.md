@@ -29,3 +29,4 @@
 - [x] 19. Add Schematic info to README.MD
 - [x] 20. Create Block Diagram
 - [ ] 21. Tidy-Up README.MD title
+- [ ] 22. Add Links for the pick-place machine, new design PCB, My Smoothieware clone
