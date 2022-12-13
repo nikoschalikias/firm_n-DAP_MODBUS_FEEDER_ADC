@@ -75,7 +75,7 @@ src="doc/alternative_import_mbed_program.JPG"
 
 ## MODBUS message structure 
 
-* MODBUS FUNCTION send from MASTER for 'turn-on' or 'set_rc_Servo_Angle'  (partially implemented on slave)
+* MODBUS FUNCTION send from Modbus-client for 'turn-on' or 'set_rc_Servo_Angle'  (partially implemented on Modbus-Instrument)
 ```
 00 ADDRESS         0x20  
 01 FUNCTION        0x10   
@@ -91,7 +91,7 @@ src="doc/alternative_import_mbed_program.JPG"
 11 CRC             XxXX  
 ```
 
-*  MODBUS COMMAND send from MASTER for 'read_pin' (not impemented yet on slave)
+*  MODBUS COMMAND send from Modbus-client for 'read_pin' (not impemented yet on Modbus-Instrument)
 ```
 00 ADDRESS         0x20    
 01 COMMAND         0x04    
