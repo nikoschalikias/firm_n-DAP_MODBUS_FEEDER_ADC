@@ -51,13 +51,16 @@ src="doc/N-DAP-PINOUT.JPG"
 
 ---
 
+
+## mbed compiler
   
-##### Initial program at [mbed program](https://os.mbed.com/users/chalikias/code/n-DAP_MODBUS_FEEDER_ADC/) 
-##### Current  project at [github project](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC) 
+* Initial program at [mbed program](https://os.mbed.com/users/chalikias/code/n-DAP_MODBUS_FEEDER_ADC/) 
+
+* Current  project at [github project](https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC) 
 
 ---
 
-##### Current operation:  
+## Program performance  
 *  Does not respond to read ADC MODBUS commands  
 *  Sends the ADC value only-once after RESET  
 *  When a Modbus Byte is received:  
