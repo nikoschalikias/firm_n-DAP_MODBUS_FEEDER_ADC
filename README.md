@@ -68,8 +68,9 @@ src="doc/N-DAP-PINOUT.JPG"
    * Responds by setting a PWM Output to [9th MODBUS byte] value, to drive an RC-Servo  
 *  Does not check for the MODBUS FUNCTION '...details', only resets a BYTE-COUNTER when received (ADDRESS BYTE) 0x20 and THEN responds on the 9th Byte (2nd MODBUS DATA byte) content
 
-##### MODBUS message structure  
-##### MODBUS FUNCTION send from MASTER for 'turn-on' or 'set_rc_Servo_Angle'  (partially implemented on slave)
+## MODBUS message structure 
+
+* MODBUS FUNCTION send from MASTER for 'turn-on' or 'set_rc_Servo_Angle'  (partially implemented on slave)
 ```
 00 ADDRESS         0x20  
 01 FUNCTION        0x10   
@@ -85,7 +86,7 @@ src="doc/N-DAP-PINOUT.JPG"
 11 CRC             XxXX  
 ```
 
-##### MODBUS COMMAND send from MASTER for 'read_pin' (not impemented yet on slave)
+*  MODBUS COMMAND send from MASTER for 'read_pin' (not impemented yet on slave)
 ```
 00 ADDRESS         0x20    
 01 COMMAND         0x04    
