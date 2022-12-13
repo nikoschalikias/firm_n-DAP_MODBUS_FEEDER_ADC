@@ -6,11 +6,12 @@
 
 * [tasks](tasks.md)
 
-# n-DAP_MODBUS_FEEDER_ADC:  
-####  Firmware for a PickPlace feeder controller MODBUS board
+# n-DAP_MODBUS_FEEDER_ADC
 
----
-Block Diagram
+Firmware for a PickPlace feeder controller MODBUS board
+
+
+## Block Diagram
 
 
 <img
@@ -19,7 +20,7 @@ src="doc/BLOCK-DIAGRAM.jpg"
 
 ---
 
-Perforated Board Schematic
+## Perforated Board Schematic
 
 
 <img
@@ -31,7 +32,7 @@ src="doc/PERFORATED-BOARD-SCHEMATIC.JPG"
 
 ---
 
-Experimental setup
+## Experimental setup
 
 
 <img
@@ -41,7 +42,7 @@ src="doc/perforated-board-03.JPG"
 ---
 
 
-n-DAP Board 'Text Art' Schematic
+## n-DAP Board 'Text Art' Schematic
 
 
 <img
