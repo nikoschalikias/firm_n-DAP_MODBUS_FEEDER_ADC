@@ -1,3 +1,5 @@
+# tasks
+
 - [x] 1. Review source, understand what it does
 - [x] 2. Create README.MD and describe firmware operation
 - [x] 3. Document the structure of the MODBUS messages
