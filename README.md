@@ -60,7 +60,7 @@ src="doc/N-DAP-PINOUT.JPG"
 
 ---
 
-## Program performance  
+## Program performance   
 *  Does not respond to read ADC MODBUS commands  
 *  Sends the ADC value only-once after RESET  
 *  When a Modbus Byte is received:  
