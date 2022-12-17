@@ -8,13 +8,13 @@
 
 # n-DAP_MODBUS_FEEDER_ADC
 
-Experimental MODbus-Instrument firmware, for a PickPlace machine
+MODbus-Instrument firmware, for a PickPlace machine
 
 
 ## Block Diagram
 
 <img
-src="doc/BLOCK-DIAGRAM.jpg"
+src="img/BLOCK-DIAGRAM.jpg"
 />
 
 ---
@@ -23,7 +23,7 @@ src="doc/BLOCK-DIAGRAM.jpg"
 
 
 <img
-src="doc/PERFORATED-BOARD-SCHEMATIC.JPG"
+src="img/PERFORATED-BOARD-SCHEMATIC.JPG"
 />
 
 
@@ -35,7 +35,7 @@ src="doc/PERFORATED-BOARD-SCHEMATIC.JPG"
 
 
 <img
-src="doc/perforated-board-03.JPG"
+src="img/perforated-board-03.JPG"
 />
 
 ---
@@ -45,7 +45,7 @@ src="doc/perforated-board-03.JPG"
 
 
 <img
-src="doc/N-DAP-PINOUT.JPG"
+src="img/N-DAP-PINOUT.JPG"
 />
 
 ---
@@ -58,7 +58,7 @@ src="doc/N-DAP-PINOUT.JPG"
 
 <p align="center">
 <img
-src="doc/12.PNG"
+src="img/12.PNG"
 width = 200
 />
 </p> 
@@ -73,7 +73,7 @@ width = 200
 
 * This project was imported from mbed online compiler OS2 program as below
 <img
-src="doc/alternative_import_mbed_program.JPG"
+src="img/alternative_import_mbed_program.JPG"
 />
 [More mbed-cli tips at: n-BlocksStudio mbed tips](https://www.n-blocks.net/nmodules/doku.php?id=nblocksstudio:installation#mbed_tips)
 
