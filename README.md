@@ -86,6 +86,8 @@ width = 200
 
 ----
 
+> * N-PP Is based on the 'tested Perforated board' Schematic and works with the same firmware
+
 <p align="center">
 <img
 src="img/13.PNG"
