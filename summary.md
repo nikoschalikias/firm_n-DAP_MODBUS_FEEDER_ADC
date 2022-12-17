@@ -27,3 +27,4 @@
 * s14. keil-studio mbed-os2: USB serial works, red LED blinks
 
 ## 17/12/2022
+* s15. Gloss and new N-PP section with images
