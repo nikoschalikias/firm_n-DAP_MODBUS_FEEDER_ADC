@@ -53,7 +53,7 @@ src="doc/N-DAP-PINOUT.JPG"
 ## N-PP
 
 * Link: [N-PP](https://github.com/n-Modbus/N-PP) 
-
+> * N-PP board, is a Modbus-Instrument Pick and Place Feeder control board, based on the 'perforated board' tested setup
 
 
 
