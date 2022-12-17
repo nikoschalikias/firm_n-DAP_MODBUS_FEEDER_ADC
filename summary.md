@@ -25,3 +25,5 @@
 * s12.  printf() over USB works :-)
 * s13. All updates form  main.cpp from: https://github.com/nikoschalikias/firm_n-DAP_MODBUS_FEEDER_ADC/blob/master/main.cpp ,  copied here
 * s14. keil-studio mbed-os2: USB serial works, red LED blinks
+
+## 17/12/2022
