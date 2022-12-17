@@ -65,6 +65,8 @@ src="img/perforated-board-03.JPG"
 src="img/N-DAP-PINOUT.JPG"
 />
 
+`image 04: Board Pinout as comments in the main.cpp`
+
 ---
 
 ## N-PP
