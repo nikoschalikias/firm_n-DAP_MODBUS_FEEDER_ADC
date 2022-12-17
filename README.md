@@ -35,6 +35,8 @@ src="img/PERFORATED-BOARD-SCHEMATIC.JPG"
 
 `image 02: Setup Schematic`
 
+----
+
 ## N-DAP board
 
 [n-DAP details](https://www.n-blocks.net/nmodules/doku.php?id=nblocks:n-pro-dap)
@@ -43,10 +45,15 @@ src="img/PERFORATED-BOARD-SCHEMATIC.JPG"
 
 ## Experimental setup
 
+> * Controlling a piezoelectric Vaccum Pump, as RC-Servo and an LED
+
+----
 
 <img
 src="img/perforated-board-03.JPG"
 />
+
+`image 03: Setup Schematic`
 
 ---
 
