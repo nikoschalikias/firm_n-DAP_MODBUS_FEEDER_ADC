@@ -51,7 +51,7 @@ src="img/perforated-board-03.JPG"
 ---
 
 
-## n-DAP Board 'Text Art' Schematic
+## n-DAP Board pinout
 
 
 <img
