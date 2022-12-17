@@ -13,9 +13,16 @@ MODbus-Instrument firmware, for a PickPlace machine
 
 ## Block Diagram
 
+
+
+<p align="center">
 <img
 src="img/BLOCK-DIAGRAM.jpg"
+width = 900
 />
+</p> 
+
+`image 01: Setup Block Diagram`
 
 ---
 
